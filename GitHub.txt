@@ -1,0 +1,27 @@
+continuous integration with maven jenkins git & github 
+
+Git & gihub
+Git ---> local repository
+Gihub ---> remote repository
+
+Pre-requisites:
+----------------
+Step-1:Create new account in Github(signup) - remote repository
+		url: https://github.com
+		
+		create new repository in github
+		url: https://github.com/kjagannnathreddy/maven-project
+
+step-2:
+		Download and install git repository(local)
+		Link:-https://git-scm.com/download/win
+		
+commands
+------------------------------
+git remote add origin "https://github.com/kjagannnathreddy/GithubDemo.git"
+
+git commit -m "commiting first time"
+
+ git push -u origin master
+git config --global user.name "jagan"
+git config --global user.email "kayajaga@gmail.com"
